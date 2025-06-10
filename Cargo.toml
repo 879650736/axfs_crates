@@ -18,3 +18,6 @@ categories = ["os", "no-std", "filesystem"]
 
 [workspace.dependencies]
 axfs_vfs = { path = "axfs_vfs", version = "0.1" }
+axfs_devfs = { path = "axfs_devfs", version = "0.1" }
+axfs_ramfs = { path = "axfs_ramfs", version = "0.1" }
+

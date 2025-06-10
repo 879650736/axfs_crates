@@ -9,6 +9,7 @@ extern crate alloc;
 mod dir;
 mod null;
 mod zero;
+mod urandom;
 
 #[cfg(test)]
 mod tests;
@@ -16,6 +17,7 @@ mod tests;
 pub use self::dir::DirNode;
 pub use self::null::NullDev;
 pub use self::zero::ZeroDev;
+pub use self::urandom::UrandomDev;
 
 use alloc::sync::Arc;
 use axfs_vfs::{VfsNodeRef, VfsOps, VfsResult};
